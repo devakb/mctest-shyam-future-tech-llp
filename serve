@@ -1,0 +1,12 @@
+<?php
+
+# host server
+
+$host = 'localhost';
+$port = 8080;
+
+# execute the server cmd
+
+$cmd = "php -S $host:$port -t public";
+
+passthru($cmd);
